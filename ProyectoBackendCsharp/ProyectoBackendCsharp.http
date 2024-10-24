@@ -1,0 +1,6 @@
+@ProyectoBackendCsharp_HostAddress = http://localhost:5179
+
+GET {{ProyectoBackendCsharp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
