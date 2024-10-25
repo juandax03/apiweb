@@ -357,6 +357,42 @@ namespace ProyectoBackendCsharp.Controllers
             return "@"; // Para SQL Server y LocalDB, el prefijo es "@".
         }
 
+        [AllowAnonymous]
+        [HttpGet("listar-entidades")]
+        public IActionResult ListarEntidades()
+        {
+            try
+            {
+                // Lista de las 18 tablas que pertenecen a tu módulo
+                var tablasModulo = new List<string>
+                {
+                    "ac_proyecto", "tipo_producto", "termino_clave", "docente_producto", 
+                    "producto", "desarrolla", "aliado_proyecto", "proyecto", 
+                    "palabras_clave", "proyecto_linea", "ods_proyecto", "aa_proyecto", 
+                    "area_conocimiento", "objetivo_desarrollo_sostenible", 
+                    "area_aplicacion", "docente", "aliado", "linea_investigacion"
+                };
+
+                // Consulta las tablas disponibles en la base de datos
+                string query = "SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE'";
+                controlConexion.AbrirBd();
+                var resultado = controlConexion.EjecutarConsultaSql(query, null);
+                controlConexion.CerrarBd();
+
+                // Filtra las tablas para mostrar solo las del módulo
+                var entidades = resultado.Rows.Cast<DataRow>()
+                    .Select(row => row["TABLE_NAME"].ToString())
+                    .Where(tabla => tablasModulo.Contains(tabla))  // Aquí se filtra la lista
+                    .ToList();
+
+                return Ok(entidades);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Error interno del servidor: {ex.Message}");
+            }
+        }
+
         [AllowAnonymous] // Permite el acceso anónimo a este método.
         [HttpDelete("{keyName}/{keyValue}")] // Define una ruta HTTP DELETE con parámetros adicionales.
         public IActionResult Eliminar(string projectName, string tableName, string keyName, string keyValue) // Elimina una fila de la tabla basada en una clave.
@@ -388,6 +424,7 @@ namespace ProyectoBackendCsharp.Controllers
         {
             return Ok("API is running"); // Retorna un mensaje indicando que la API está en funcionamiento.
         }
+
 
         [AllowAnonymous] // Permite el acceso anónimo a este método.
         [HttpPost("verificar-contrasena")] // Define una ruta HTTP POST para verificar contraseñas.

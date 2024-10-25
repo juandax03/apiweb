@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Builder; // Importa el espacio de nombres necesario p
 using Microsoft.Extensions.DependencyInjection; // Importa el espacio de nombres necesario para configurar los servicios de la aplicación.
 using Microsoft.Extensions.Hosting; // Importa el espacio de nombres necesario para trabajar con diferentes entornos (desarrollo, producción, etc.).
 using ProyectoBackendCsharp.Services; // Importa los servicios personalizados que se utilizarán en la aplicación.
-using ProyectoBackendCsharp.Models;
 
 var builder = WebApplication.CreateBuilder(args); // Crea un constructor para configurar la aplicación web ASP.NET Core.
 
@@ -27,6 +26,8 @@ if (app.Environment.IsDevelopment()) // Verifica si la aplicación está en el e
 app.UseHttpsRedirection(); // Fuerza la redirección de las solicitudes HTTP a HTTPS para mejorar la seguridad.
 
 app.UseCors("AllowAllOrigins"); // Aplica la política de CORS que permite solicitudes desde cualquier origen.
+
+app.UseAuthorization(); // Habilita el middleware de autorización, necesario para proteger rutas que requieren autenticación o autorización.
 
 app.MapControllers(); // Configura las rutas de los controladores para manejar las solicitudes HTTP.
 

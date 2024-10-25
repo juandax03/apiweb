@@ -78,3 +78,4 @@ C:\Users\juand\segunda_entrega\ProyectoBackendCsharp\bin\Debug\net8.0\Microsoft.
 C:\Users\juand\segunda_entrega\ProyectoBackendCsharp\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\juand\segunda_entrega\ProyectoBackendCsharp\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\juand\segunda_entrega\ProyectoBackendCsharp\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\juand\segunda_entrega\ProyectoBackendCsharp\obj\Debug\net8.0\ProyectoBackendCsharp.sourcelink.json
