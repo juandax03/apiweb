@@ -18,6 +18,7 @@ namespace ProyectoBackendCsharp.Controllers
     [Route("api/{projectName}/{tableName}")] // Define la ruta de la API para este controlador.
     [ApiController] // Indica que esta clase es un controlador de API.
     [Authorize] // Requiere autorización para acceder a los métodos de este controlador.
+    [AllowAnonymous]
     public class EntidadesController : ControllerBase // Define un controlador llamado `EntidadesController`.
     {
         private readonly ControlConexion controlConexion; // Declara una instancia del servicio ControlConexion.

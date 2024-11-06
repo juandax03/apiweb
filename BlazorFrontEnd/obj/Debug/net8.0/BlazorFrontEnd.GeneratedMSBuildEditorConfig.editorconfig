@@ -34,6 +34,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/juand/segunda_entrega/BlazorFrontEnd/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juand/segunda_entrega/BlazorFrontEnd/Pages/Registros.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juand/segunda_entrega/BlazorFrontEnd/Pages/Tabla.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/juand/segunda_entrega/BlazorFrontEnd/Pages/Tablas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGFzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/juand/segunda_entrega/BlazorFrontEnd/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

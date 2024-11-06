@@ -1,0 +1,76 @@
+@page "/tabla/{nombreTabla}"
+@inject HttpClient Http
+@inject NavigationManager Navigation
+
+<h2 class="mt-5">Registros de la tabla: @nombreTabla</h2>
+
+<button class="btn btn-primary mb-3" @onclick="AgregarRegistro">Agregar Nuevo Registro</button>
+<input @bind="buscarId" placeholder="Buscar por ID..." class="form-control mb-3" />
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            @if (registros != null && registros.Any())
+            {
+                @foreach (var key in registros.First().Keys)
+                {
+                    <th>@key</th>
+                }
+                <th>Acciones</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @if (registros != null)
+        {
+            @foreach (var registro in registros)
+            {
+                <tr>
+                    @foreach (var value in registro.Values)
+                    {
+                        <td>@value</td>
+                    }
+                    <td>
+                        <button class="btn btn-warning me-2" @onclick="() => EditarRegistro(registro)">Editar</button>
+                        <button class="btn btn-danger" @onclick="() => EliminarRegistro(registro)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+@code {
+    [Parameter]
+    public string nombreTabla { get; set; }
+
+    private List<Dictionary<string, object>> registros;
+    private string buscarId;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CargarRegistros();
+    }
+
+    private async Task CargarRegistros()
+    {
+        registros = await Http.GetFromJsonAsync<List<Dictionary<string, object>>>($"http://localhost:5179/api/{nombreTabla}");
+    }
+
+    private void AgregarRegistro()
+    {
+        Navigation.NavigateTo($"/tabla/{nombreTabla}/nuevo");
+    }
+
+    private void EditarRegistro(Dictionary<string, object> registro)
+    {
+        // Implementar la navegación hacia la vista de edición.
+    }
+
+    private async Task EliminarRegistro(Dictionary<string, object> registro)
+    {
+        var id = registro["id"].ToString();
+        await Http.DeleteAsync($"http://localhost:5179/api/{nombreTabla}/{id}");
+        await CargarRegistros();
+    }
+}
