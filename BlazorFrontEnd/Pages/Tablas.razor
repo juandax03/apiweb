@@ -1,10 +1,26 @@
 @page "/tablas"
 @inject HttpClient Http
 @inject NavigationManager Navigation
+@inject Blazored.LocalStorage.ILocalStorageService LocalStorage
 
 <h3>Lista de Tablas</h3>
 
-@if (tablas == null)
+@if (!isAuthenticated)
+{
+    <p>No tienes acceso a esta página. Redirigiendo al inicio de sesión...</p>
+    @code {
+        private async Task RedirectIfNotAuthenticated()
+        {
+            await Task.Delay(1000); // Espera un momento antes de redirigir
+            Navigation.NavigateTo("/login");
+        }
+    }
+}
+else if (!hasAccess)
+{
+    <p>No tienes permiso para acceder a esta página.</p>
+}
+else if (tablas == null)
 {
     <p>Cargando tablas...</p>
 }
@@ -38,14 +54,77 @@ else
 }
 
 @code {
+    private bool isAuthenticated = false;
+    private bool hasAccess = false; // Nuevo flag para controlar el acceso basado en el rol
     private List<string>? tablas;
+    private string userRole = string.Empty;
+    private List<string> accessibleTables = new List<string>();
 
     protected override async Task OnInitializedAsync()
     {
         try
         {
-            // Llamada al endpoint para listar tablas
-            tablas = await Http.GetFromJsonAsync<List<string>>("http://localhost:5179/api/proyecto/tablas/listar-entidades");
+            // Verificación de autenticación
+            var token = await LocalStorage.GetItemAsync<string>("authToken");
+            userRole = await LocalStorage.GetItemAsync<string>("userRole");
+            isAuthenticated = !string.IsNullOrEmpty(token);
+
+            if (!isAuthenticated)
+            {
+                await RedirectIfNotAuthenticated();
+            }
+            else
+            {
+                // Lógica de control de acceso basada en el rol
+                if (userRole.Equals("Admin", StringComparison.OrdinalIgnoreCase))
+                {
+                    hasAccess = true;
+                    // Admin tiene acceso a todas las tablas
+                    accessibleTables = new List<string>
+                    {
+                        "ac_proyecto", "tipo_producto", "termino_clave", "docente_producto", 
+                        "producto", "desarrolla", "aliado_proyecto", "proyecto", 
+                        "palabras_clave", "proyecto_linea", "ods_proyecto", "aa_proyecto", 
+                        "area_conocimiento", "objetivo_desarrollo_sostenible", 
+                        "area_aplicacion", "docente", "aliado", "linea_investigacion", "Usuarios"
+                    };
+                }
+                else if (userRole.Equals("Gestor", StringComparison.OrdinalIgnoreCase))
+                {
+                    hasAccess = true;
+                    // Gestor tiene acceso a un subconjunto específico de tablas
+                    accessibleTables = new List<string>
+                    {
+                        "ac_proyecto", "tipo_producto", "producto", "desarrolla", 
+                        "proyecto", "aliado_proyecto", "palabras_clave", 
+                        "proyecto_linea", "ods_proyecto", "aa_proyecto"
+                    };
+                }
+                else if (userRole.Equals("Colaborador", StringComparison.OrdinalIgnoreCase))
+                {
+                    hasAccess = true;
+                    // Colaborador tiene acceso limitado a ciertas tablas
+                    accessibleTables = new List<string>
+                    {
+                        "termino_clave", "docente_producto", "area_conocimiento", 
+                        "objetivo_desarrollo_sostenible", "area_aplicacion", 
+                        "docente", "aliado", "linea_investigacion"
+                    };
+                }
+                else
+                {
+                    hasAccess = false; // Si el rol no coincide, el acceso no está permitido
+                }
+
+                // Llamada al endpoint para listar tablas solo si tiene acceso
+                if (hasAccess)
+                {
+                    tablas = await Http.GetFromJsonAsync<List<string>>("http://localhost:5179/api/proyecto/tablas/listar-entidades");
+
+                    // Filtrar tablas según las tablas permitidas para el rol del usuario
+                    tablas = tablas?.Where(tabla => accessibleTables.Contains(tabla)).ToList();
+                }
+            }
         }
         catch (Exception ex)
         {

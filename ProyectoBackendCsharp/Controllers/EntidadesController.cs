@@ -371,7 +371,7 @@ namespace ProyectoBackendCsharp.Controllers
                     "producto", "desarrolla", "aliado_proyecto", "proyecto", 
                     "palabras_clave", "proyecto_linea", "ods_proyecto", "aa_proyecto", 
                     "area_conocimiento", "objetivo_desarrollo_sostenible", 
-                    "area_aplicacion", "docente", "aliado", "linea_investigacion"
+                    "area_aplicacion", "docente", "aliado", "linea_investigacion", "Usuarios"
                 };
 
                 // Consulta las tablas disponibles en la base de datos

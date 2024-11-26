@@ -3,13 +3,13 @@
 
 <div class="container text-center mt-5">
     <h1>Bienvenido</h1>
-    <p class="lead">Haz clic en el botón para ver las tablas disponibles.</p>
-    <button class="btn btn-primary" @onclick="VerTablas">Mira las tablas</button>
+    <p class="lead">Haz clic en el botón para iniciar sesión.</p>
+    <button class="btn btn-primary" @onclick="VerTablas">Inicia Sesión</button>
 </div>
 
 @code {
     private void VerTablas()
     {
-        Navigation.NavigateTo("/tablas");
+        Navigation.NavigateTo("/login");
     }
 }

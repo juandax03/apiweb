@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Sxgm6CZm935EpiNVplNYl+TK+w2JbZ1UcdEn2vtu0+w=",
+  "Hash": "iQA3DvomywoEZGlkXaZ6uN1QNCeQ7+gLLM9HoYrSPUc=",
   "Source": "BlazorFrontEnd",
   "BasePath": "/",
   "Mode": "Root",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\juand\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\8.0.10\\build\\net8.0\\blazor.webassembly.js"
+    },
+    {
+      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm",
+      "SourceId": "BlazorFrontEnd",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.wasm",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "WasmResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\webcil\\Blazored.LocalStorage.wasm"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorFrontEnd.pdb",
@@ -109,7 +128,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\dotnet.js"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
@@ -128,15 +147,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\dotnet.js.map"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\dotnet.js.map"
     },
     {
-      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.10.dttvpwtuld.js",
+      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.11.hrdwnxqp0x.js",
       "SourceId": "BlazorFrontEnd",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.10.dttvpwtuld.js",
+      "RelativePath": "_framework/dotnet.native.8.0.11.hrdwnxqp0x.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,7 +166,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\dotnet.native.js"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\dotnet.native.js"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
@@ -166,15 +185,15 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\dotnet.native.wasm"
     },
     {
-      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.10.39apnb5yx8.js",
+      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.11.4x9u2jijba.js",
       "SourceId": "BlazorFrontEnd",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.10.39apnb5yx8.js",
+      "RelativePath": "_framework/dotnet.runtime.8.0.11.4x9u2jijba.js",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,7 +204,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\dotnet.runtime.js"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
@@ -204,7 +223,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\dotnet.runtime.js.map"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
@@ -223,7 +242,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\icudt_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
@@ -242,7 +261,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
@@ -261,7 +280,7 @@
       "AssetTraitValue": "native",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.10\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+      "OriginalItemSpec": "C:\\Program Files\\dotnet\\packs\\Microsoft.NETCore.App.Runtime.Mono.browser-wasm\\8.0.11\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.wasm",
@@ -4140,25 +4159,6 @@
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Pipelines.wasm"
     },
     {
-      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\39apnb5yx8.gz",
-      "SourceId": "BlazorFrontEnd",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.8.0.10.39apnb5yx8.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.10.39apnb5yx8.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.10.39apnb5yx8.js"
-    },
-    {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\3cn6zv47be.gz",
       "SourceId": "BlazorFrontEnd",
       "SourceType": "Computed",
@@ -4347,6 +4347,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Globalization.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\4x9u2jijba.gz",
+      "SourceId": "BlazorFrontEnd",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.8.0.11.4x9u2jijba.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.11.4x9u2jijba.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.11.4x9u2jijba.js"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\50ocz9v1vl.gz",
@@ -4691,25 +4710,6 @@
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorFrontEnd.wasm"
     },
     {
-      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\8jqm1bzm7c.gz",
-      "SourceId": "BlazorFrontEnd",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.wasm.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
-    },
-    {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\8p5p1jwxiu.gz",
       "SourceId": "BlazorFrontEnd",
       "SourceType": "Computed",
@@ -4841,6 +4841,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.VisualBasic.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\9r8m3b633a.gz",
+      "SourceId": "BlazorFrontEnd",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\9rohxdfub2.gz",
@@ -5147,25 +5166,6 @@
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Compression.FileSystem.wasm"
     },
     {
-      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\d3b5uaod4t.gz",
-      "SourceId": "BlazorFrontEnd",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
-    },
-    {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\d9ttc45cc0.gz",
       "SourceId": "BlazorFrontEnd",
       "SourceType": "Computed",
@@ -5261,25 +5261,6 @@
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.TraceSource.wasm"
     },
     {
-      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\dttvpwtuld.gz",
-      "SourceId": "BlazorFrontEnd",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.native.8.0.10.dttvpwtuld.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.10.dttvpwtuld.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.10.dttvpwtuld.js"
-    },
-    {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\e2cp9hiwb8.gz",
       "SourceId": "BlazorFrontEnd",
       "SourceType": "Computed",
@@ -5316,25 +5297,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.Unsafe.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\e9fk0wvknf.gz",
-      "SourceId": "BlazorFrontEnd",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\ef8hutyvr8.gz",
@@ -5622,25 +5584,6 @@
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.UnmanagedMemoryStream.wasm"
     },
     {
-      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\gsqam1bzs6.gz",
-      "SourceId": "BlazorFrontEnd",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
-    },
-    {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\h71nplm3ca.gz",
       "SourceId": "BlazorFrontEnd",
       "SourceType": "Computed",
@@ -5734,6 +5677,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.Encoding.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\hrdwnxqp0x.gz",
+      "SourceId": "BlazorFrontEnd",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.8.0.11.hrdwnxqp0x.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.11.hrdwnxqp0x.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.11.hrdwnxqp0x.js"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\i7owzatn1w.gz",
@@ -6135,6 +6097,25 @@
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.TypeConverter.wasm"
     },
     {
+      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\m19iylfjne.gz",
+      "SourceId": "BlazorFrontEnd",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_CJK.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
+    },
+    {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\ma6m4ssyyw.gz",
       "SourceId": "BlazorFrontEnd",
       "SourceType": "Computed",
@@ -6228,6 +6209,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.CSharp.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\n0zc4k9fsa.gz",
+      "SourceId": "BlazorFrontEnd",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt_EFIGS.dat.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\ncy0fceraj.gz",
@@ -6572,25 +6572,6 @@
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.Tracing.wasm"
     },
     {
-      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\q4f82dkrg3.gz",
-      "SourceId": "BlazorFrontEnd",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_no_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat"
-    },
-    {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\q7ipm7t0ej.gz",
       "SourceId": "BlazorFrontEnd",
       "SourceType": "Computed",
@@ -6646,25 +6627,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\qc5pkvggmj.gz",
-      "SourceId": "BlazorFrontEnd",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt_CJK.dat.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\qplt2t5hwy.gz",
@@ -6836,6 +6798,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.AccessControl.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\s2osjms2nf.gz",
+      "SourceId": "BlazorFrontEnd",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Blazored.LocalStorage.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Blazored.LocalStorage.wasm"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\s8htl2zjg7.gz",
@@ -7047,6 +7028,25 @@
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Extensions.wasm"
     },
     {
+      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\tqlltza6ez.gz",
+      "SourceId": "BlazorFrontEnd",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
+    },
+    {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\u0dm4ssx5t.gz",
       "SourceId": "BlazorFrontEnd",
       "SourceType": "Computed",
@@ -7180,6 +7180,25 @@
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.MemoryMappedFiles.wasm"
     },
     {
+      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\v5y8ngj5n3.gz",
+      "SourceId": "BlazorFrontEnd",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.runtime.js.map.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map"
+    },
+    {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\vbgaar8bzv.gz",
       "SourceId": "BlazorFrontEnd",
       "SourceType": "Computed",
@@ -7254,6 +7273,25 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.wasm"
+    },
+    {
+      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\wb72z13m3y.gz",
+      "SourceId": "BlazorFrontEnd",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.js.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\wk3iravnah.gz",
@@ -7465,6 +7503,25 @@
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\BlazorFrontEnd.pdb"
     },
     {
+      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\xlfuy8hk3n.gz",
+      "SourceId": "BlazorFrontEnd",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/dotnet.native.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm"
+    },
+    {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\xn1m2i3z7k.gz",
       "SourceId": "BlazorFrontEnd",
       "SourceType": "Computed",
@@ -7653,25 +7710,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.Watcher.wasm"
-    },
-    {
-      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\yrpojpvlag.gz",
-      "SourceId": "BlazorFrontEnd",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/dotnet.js.map.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\obj\\Debug\\net8.0\\compressed\\z0whdsiffa.gz",
@@ -7919,6 +7957,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\wwwroot\\js\\particles-init.js",
+      "SourceId": "BlazorFrontEnd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "js/particles-init.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\particles-init.js"
     },
     {
       "Identity": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\wwwroot\\sample-data\\weather.json",

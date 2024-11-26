@@ -10,12 +10,12 @@ main[b-msf2p0x9on] {
 }
 
 .sidebar[b-msf2p0x9on] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    background-image: linear-gradient(180deg, rgb(135, 255, 165) 0%, #000000 70%);
 }
 
 .top-row[b-msf2p0x9on] {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
+    background-color: #f38406;
+    border-bottom: 1px solid #ff0808;
     justify-content: flex-end;
     height: 3.5rem;
     display: flex;
@@ -158,5 +158,24 @@ main[b-msf2p0x9on] {
         /* Allow sidebar to scroll for tall menus */
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
+    }
+}
+/* /Pages/Login.razor.rz.scp.css */
+.gradient-custom-2[b-r4crfvof5f] {
+    background: #fccb90;
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+    .gradient-form[b-r4crfvof5f] {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2[b-r4crfvof5f] {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
     }
 }

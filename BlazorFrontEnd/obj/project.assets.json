@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "Blazored.LocalStorage/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Blazored.LocalStorage.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/8.0.10": {
         "type": "package",
         "dependencies": {
@@ -421,13 +433,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.10": {
+      "Microsoft.NET.ILLink.Tasks/8.0.11": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.10": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.11": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -468,6 +480,18 @@
       }
     },
     "net8.0/browser-wasm": {
+      "Blazored.LocalStorage/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Blazored.LocalStorage.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Blazored.LocalStorage.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/8.0.10": {
         "type": "package",
         "dependencies": {
@@ -887,13 +911,13 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.10": {
+      "Microsoft.NET.ILLink.Tasks/8.0.11": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.10": {
+      "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.11": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.Sdk.WebAssembly.Pack.props": {},
@@ -935,6 +959,22 @@
     }
   },
   "libraries": {
+    "Blazored.LocalStorage/4.5.0": {
+      "sha512": "6nZuJwA7zNIKx83IsObiHXZb09ponJOpCClU3en+hI8ZFvrOKXeOw+H7TegQZQrvdR1n9fkrVkEBQZg8vx6ZTw==",
+      "type": "package",
+      "path": "blazored.localstorage/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "blazored.localstorage.4.5.0.nupkg.sha512",
+        "blazored.localstorage.nuspec",
+        "icon.png",
+        "lib/net6.0/Blazored.LocalStorage.dll",
+        "lib/net7.0/Blazored.LocalStorage.dll",
+        "lib/net8.0/Blazored.LocalStorage.dll"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/8.0.10": {
       "sha512": "mENBehQP1H9oTB4Diu1l7vR1BeZrBNWA9sHZsln4l2oIs7D3qH3fokopU/8FWa9JSxQYNBT1MeYBCwguYOBjMQ==",
       "type": "package",
@@ -1745,10 +1785,10 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.10": {
-      "sha512": "xT8jYjlroY7SLbGtoV9vUTVW/TPgodL4Egc31a444Xe0TMytLZ3UlKQ0kxMZsy/CrWsFB6wtKnSG1SsXcWreew==",
+    "Microsoft.NET.ILLink.Tasks/8.0.11": {
+      "sha512": "zk5lnZrYJgtuJG8L4v17Ej8rZ3PUcR2iweNV08BaO5LbYHIi2wNaVNcJoLxvqgQdnjLlKnCCfVGLDr6QHeAarQ==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.10",
+      "path": "microsoft.net.illink.tasks/8.0.11",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1762,7 +1802,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.10.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.11.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -1796,10 +1836,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.10": {
-      "sha512": "DTJaIRCxCphhaI+7htflFVgOHbQMLprP65yRk5jlnXfkjwyo8oNwFPBZDr6/3X0YO7W77JOjnfjve2QSaYxs9g==",
+    "Microsoft.NET.Sdk.WebAssembly.Pack/8.0.11": {
+      "sha512": "apyq1nlpnHG64NVs1RpgUJAxM73bu5fLFB/SsIcYYiLKdUxiIMPQQWr9ysRxfJRLlKwLSoJo6LmjhjS9sxC8eg==",
       "type": "package",
-      "path": "microsoft.net.sdk.webassembly.pack/8.0.10",
+      "path": "microsoft.net.sdk.webassembly.pack/8.0.11",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1827,7 +1867,7 @@
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.props",
         "build/Microsoft.NET.Sdk.WebAssembly.Pack.targets",
         "build/Wasm.web.config",
-        "microsoft.net.sdk.webassembly.pack.8.0.10.nupkg.sha512",
+        "microsoft.net.sdk.webassembly.pack.8.0.11.nupkg.sha512",
         "microsoft.net.sdk.webassembly.pack.nuspec",
         "tools/net472/Microsoft.Bcl.AsyncInterfaces.dll",
         "tools/net472/Microsoft.Build.dll",
@@ -1928,10 +1968,11 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Blazored.LocalStorage >= 4.5.0",
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.10",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.10",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.10",
-      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.10",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.11",
+      "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.11",
       "System.Net.Http.Json >= 8.0.1"
     ]
   },
@@ -1977,6 +2018,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Blazored.LocalStorage": {
+            "target": "Package",
+            "version": "[4.5.0, )"
+          },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
             "version": "[8.0.10, )"
@@ -1989,13 +2034,13 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.10, )",
+            "version": "[8.0.11, )",
             "autoReferenced": true
           },
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.10, )",
+            "version": "[8.0.11, )",
             "autoReferenced": true
           },
           "System.Net.Http.Json": {
@@ -2019,7 +2064,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

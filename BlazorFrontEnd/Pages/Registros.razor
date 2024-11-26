@@ -51,9 +51,9 @@ else
 <!-- Modal para Agregar/Editar Registro -->
 @if (mostrarModal)
 {
-    <div class="modal fade show d-block" tabindex="-1">
+    <div class="modal fade show d-block" tabindex="-1" style="background: rgba(0, 0, 0, 0.5);">
         <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content" style="background-color: #1a1a1a; color: #c4f0c5; border: 1px solid #34eb89;">
                 <div class="modal-header">
                     <h5 class="modal-title">@accionModal Registro en @nombreTabla</h5>
                     <button type="button" class="btn-close" @onclick="CerrarModal"></button>
@@ -64,6 +64,7 @@ else
                         <div class="mb-3">
                             <label class="form-label">@columna</label>
                             <input type="text" class="form-control" 
+                                   style="background-color: #1a1a1a; color: #c4f0c5; border: 1px solid #34eb89;"
                                    value="@ObtenerValorColumna(columna)" 
                                    @oninput="(e) => ActualizarValorColumna(columna, e.Value?.ToString())" />
                         </div>

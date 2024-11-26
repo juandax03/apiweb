@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\wwwroot\\js\\particles-init.js",
+      "PackagePath": "staticwebassets\\js\\particles-init.js"
+    },
+    {
       "Id": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },

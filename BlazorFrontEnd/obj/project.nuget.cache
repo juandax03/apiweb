@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "sQDCSqNzylo=",
+  "dgSpecHash": "ExRrBa7Bhzo=",
   "success": true,
   "projectFilePath": "C:\\Users\\juand\\segunda_entrega\\BlazorFrontEnd\\BlazorFrontEnd.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\juand\\.nuget\\packages\\blazored.localstorage\\4.5.0\\blazored.localstorage.4.5.0.nupkg.sha512",
     "C:\\Users\\juand\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.10\\microsoft.aspnetcore.authorization.8.0.10.nupkg.sha512",
     "C:\\Users\\juand\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.10\\microsoft.aspnetcore.components.8.0.10.nupkg.sha512",
     "C:\\Users\\juand\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\8.0.10\\microsoft.aspnetcore.components.analyzers.8.0.10.nupkg.sha512",
@@ -28,8 +29,8 @@
     "C:\\Users\\juand\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\juand\\.nuget\\packages\\microsoft.jsinterop\\8.0.10\\microsoft.jsinterop.8.0.10.nupkg.sha512",
     "C:\\Users\\juand\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.10\\microsoft.jsinterop.webassembly.8.0.10.nupkg.sha512",
-    "C:\\Users\\juand\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.10\\microsoft.net.illink.tasks.8.0.10.nupkg.sha512",
-    "C:\\Users\\juand\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.10\\microsoft.net.sdk.webassembly.pack.8.0.10.nupkg.sha512",
+    "C:\\Users\\juand\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.11\\microsoft.net.illink.tasks.8.0.11.nupkg.sha512",
+    "C:\\Users\\juand\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.11\\microsoft.net.sdk.webassembly.pack.8.0.11.nupkg.sha512",
     "C:\\Users\\juand\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\juand\\.nuget\\packages\\system.net.http.json\\8.0.1\\system.net.http.json.8.0.1.nupkg.sha512"
   ],

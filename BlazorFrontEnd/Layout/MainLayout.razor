@@ -1,16 +1,37 @@
 ﻿@inherits LayoutComponentBase
+@inject NavigationManager Navigation
+@inject Blazored.LocalStorage.ILocalStorageService LocalStorage
+
 <div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
-
+    
     <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
-
-        <article class="content px-4">
+        <LayoutView>
             @Body
-        </article>
+        </LayoutView>
+
+        @if (isAuthenticated && !Navigation.Uri.Contains("/login"))
+
+        {
+            <button @onclick="Logout" class="btn btn-danger">Cerrar Sesión</button>
+        }
     </main>
 </div>
+
+@code {
+    private bool isAuthenticated = false;
+
+protected override async Task OnInitializedAsync()
+{
+    // Verifica si hay un token de autenticación almacenado
+    var token = await LocalStorage.GetItemAsync<string>("authToken");
+    isAuthenticated = !string.IsNullOrEmpty(token);
+    Console.WriteLine($"IsAuthenticated: {isAuthenticated}"); // Para depurar y verificar el valor
+}
+
+    private async Task Logout()
+    {
+        await LocalStorage.RemoveItemAsync("authToken"); // Elimina el token de autenticación
+        await LocalStorage.RemoveItemAsync("userRole"); // Elimina el rol almacenado
+        Navigation.NavigateTo("/login"); // Redirige al usuario al inicio de sesión
+    }
+}
